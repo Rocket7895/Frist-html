@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <title>Node.js</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:2px solid black;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:2px solid black;
+      width:100px;
+      margin:0;
+      padding:20px;
+      font-size:20px;
+    }
+    ul{
+      font-size:15px;
+      padding-left:35px;
+      margin-bottom:20px;
+      margin-top:5px;
+    }
+    a:hover {
+      color:black;
+      background-color:lightgray;
+      text-decoration:underline;
+    }
+    a:visited {
+      color:red;
+      background-color:transparent;
+      text-decoration:none;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+    .now {
+      background-color:lightgray;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="1.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="Front.html" target="_blank">프론트엔드</a></li>
+      <ul>
+        <li><a href="HTML.html" target="_blank">HTML</a></li>
+        <li><a href="CSS.html" target="_blank">CSS</a></li>
+        <li><a href="JS.html" target="_blank">JavaScript</a></li>
+      </ul>
+      <li><a href="Back.html" target="_blank">백엔드</a></li>
+      <ul>
+        <li><a href="C++.html" target="_blank">C++</a></li>
+        <li><a href="Node.html" target="_blank" class="now">Node.js</a></li>
+        <li><a href="Java.html" target="_blank">Java</a></li>
+      </ul>
+    </ol>
+    <div id="article">
+        <h2>Node.js</h2>
+        <p>
+          Node.js는 확장성 있는 네트워크 애플리케이션(특히 서버 사이드) 개발에 사용되는 소프트웨어 플랫폼이다. 작성 언어로 자바스크립트를 활용하며
+          논블로킹 I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.
+          내장 HTTP 서버 라이브러리를 포함하고 있어 웹 서버에서 아파치 등의 별도의 소프트웨어 없이 동작하는 것이 가능하며 이를 통해 웹 서버의 동작에 있어 더 많은 통제를 가능케 한다.
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>

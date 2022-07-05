@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+  <title>Back</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:2px solid black;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:2px solid black;
+      width:100px;
+      margin:0;
+      padding:20px;
+      font-size:20px;
+    }
+    ul{
+      font-size:15px;
+      padding-left:35px;
+      margin-bottom:20px;
+      margin-top:5px;
+    }
+    a:hover {
+      color:black;
+      background-color:lightgray;
+      text-decoration:underline;
+    }
+    a:visited {
+      color:red;
+      background-color:transparent;
+      text-decoration:none;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+    .now {
+      background-color:lightgray;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="1.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="Front.html" target="_blank">프론트엔드</a></li>
+      <ul>
+        <li><a href="HTML.html" target="_blank">HTML</a></li>
+        <li><a href="CSS.html" target="_blank">CSS</a></li>
+        <li><a href="JS.html" target="_blank">JavaScript</a></li>
+      </ul>
+      <li><a href="Back.html" target="_blank" class="now">백엔드</a></li>
+      <ul>
+        <li><a href="C++.html" target="_blank">C++</a></li>
+        <li><a href="Node.html" target="_blank">Node.js</a></li>
+        <li><a href="Java.html" target="_blank">Java</a></li>
+      </ul>
+    </ol>
+    <div id="article">
+        <h2>백엔드 개발자</h2>
+        <p>
+          백엔드 개발자는 프론트엔드, 백엔드의 완전한 분리 구조를 지향하는 업무 스타일의 개발 방식으로 백엔드의 DB와 API 서버 개발을 맡는다.
+          이와 다른 방식의 업무 스타일 직군으로는 웹퍼블리셔(UI 개발)와 개발자(서버 개발자)의 업무 분리 방식이 있다. 이 경우는 주로 서버사이드가 클라이언트를 감싸는 방식이고, 전반적인 비지니스 로직은 개발자가 맡는다.
+        </p>
+        <h3>상세</h3>
+        <p>
+          백엔드 개발자는 기존 개발자라 불리는 스펙과 방식이 약간 다르다. 프로그래밍, 데이터베이스, 웹 서버, 네트워크, 인프라 등에 대한 기술이 필요하다.
+          백엔드 개발은 API 개발이 주가 된다. 프론트에서 요구하는 데이터의 포맷이나 데이터베이스 입출력 및 다양한 비즈니스 프로세스를 코드로 구현하고 이를 위한 DB를 설계하고 백엔드 프레임워크를 이용하여
+          앱을 구현하는 것이 주요 업무다. 여기에 백엔드 프레임워크와 프론트엔드 서버를 이어주는 서블릿, WSGI 등의 미들웨어 기술도 필요하다. API 명세를 설계하고 실제 배포 단계에서 최대한 문제가 발생하지 않도록
+          체계적으로 구성하는 능력도 필요하다.
+        </p>
+      </div>
+
+  </div>
+  </body>
+  </html>

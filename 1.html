@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <title>Front & Back</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:2px solid black;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:2px solid black;
+      width:100px;
+      margin:0;
+      padding:20px;
+      font-size:20px;
+    }
+    ul{
+      font-size:15px;
+      padding-left:35px;
+      margin-bottom:20px;
+      margin-top:5px;
+    }
+    a:hover {
+      color:black;
+      background-color:lightgray;
+      text-decoration:underline;
+    }
+    a:visited {
+      color:red;
+      background-color:transparent;
+      text-decoration:none;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 170px 1fr;
+    }
+    #grid ol{
+      padding-left:35px;
+    }
+    #grid #article{
+      padding-left:30px;
+    }
+    .plus {
+      color:coral;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="1.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="Front.html" target="_blank">프론트엔드</a></li>
+      <ul>
+        <li><a href="HTML.html" target="_blank">HTML</a></li>
+        <li><a href="CSS.html" target="_blank">CSS</a></li>
+        <li><a href="JS.html" target="_blank">JavaScript</a></li>
+      </ul>
+      <li><a href="Back.html" target="_blank">백엔드</a></li>
+      <ul>
+        <li><a href="C++.html" target="_blank">C++</a></li>
+        <li><a href="Node.html" target="_blank">Node.js</a></li>
+        <li><a href="Java.html" target="_blank">Java</a></li>
+      </ul>
+    </ol>
+    <div id="article">
+        <h2>WEB 이란</h2>
+        <p>
+          1989년 12월 16일에 개발되고 1990년 12월 20일에 발표 및 보급된 <a href="https://ko.wikipedia.org/wiki/%EC%9B%94%EB%93%9C%EC%99%80%EC%9D%B4%EB%93%9C%EC%9B%B9" target="_blank" class="plus">월드 와이드 웹</a>(World Wide Web, WWW, W3)은 인터넷에 연결된 컴퓨터를 이용해 사람들과 정보를 공유할 수 있는 거미줄(Web)처럼 얼기설기 엮인 공간을
+          뜻하는 용어다. <a href="https://ko.wikipedia.org/wiki/HTTP" target="_blank" class="plus">HTTP 프로토콜</a>을 기반으로 HTML로 작성된 하이퍼텍스트 페이지를 웹 브라우저라는 특정한 프로그램으로 읽을 수 있게 하도록 구성되어 있다. WWW, W3, 또는 간단하게 웹(Web)이라고도 한다.
+          인터넷의 동의어로 취급하는 사람들이 많지만, 인터넷은 <a href="https://ko.wikipedia.org/wiki/%EC%A0%84%EC%86%A1_%EC%A0%9C%EC%96%B4_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C" target="_blank" class="plus">TCP/IP 프로토콜</a>로 구현된 통신망이고, 월드 와이드 웹은 이 인터넷을 기반으로 대량의 이미지와 문자를 전송하는 프로토콜이다.
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <title>C++</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:2px solid black;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:2px solid black;
+      width:100px;
+      margin:0;
+      padding:20px;
+      font-size:20px;
+    }
+    ul{
+      font-size:15px;
+      padding-left:35px;
+      margin-bottom:20px;
+      margin-top:5px;
+    }
+    a:hover {
+      color:black;
+      background-color:lightgray;
+      text-decoration:underline;
+    }
+    a:visited {
+      color:red;
+      background-color:transparent;
+      text-decoration:none;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+    .now {
+      background-color:lightgray;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="1.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="Front.html" target="_blank">프론트엔드</a></li>
+      <ul>
+        <li><a href="HTML.html" target="_blank">HTML</a></li>
+        <li><a href="CSS.html" target="_blank">CSS</a></li>
+        <li><a href="JS.html" target="_blank">JavaScript</a></li>
+      </ul>
+      <li><a href="Back.html" target="_blank">백엔드</a></li>
+      <ul>
+        <li><a href="C++.html" target="_blank" class="now">C++</a></li>
+        <li><a href="Node.html" target="_blank">Node.js</a></li>
+        <li><a href="Java.html" target="_blank">Java</a></li>
+      </ul>
+    </ol>
+    <div id="article">
+        <h2>c++</h2>
+        <p>
+          C 언어에 객체지향 프로그래밍을 지원하기 위한 내용이 덧붙여진 것이라고 할 수도 있지만, 애초부터 객체지향을 염두에 두고 만들어진 언어와는 다르게, 단지 더 좋은 C 언어로서 수속형 언어로 취급하기도 한다.
+          초기의 C++은 C 위에 놓인 트랜스레이터로 구현되었다. 즉, C++ 프로그램을 일단 C 프로그램으로 변환하고 나서 C 컴파일러로 컴파일하는 식이었고 따라서 C 언어에 대해 상위 호환성을 갖는 언어였다.
+          그 후, C 언어의 표준 규격이 바뀔 때 const 수식 등 C++의 기능이 C 언어에 받아들이기도 했다. 현재 C 언어와 C++와의 사이에는 엄격한 호환성은 없다. 특히 C99의 출현으로 C 언어와의 호환성은 깨져 버렸다.
+          따라서 C99 이후로 C++은 C의 수퍼셋(superset)이 아니다. 그러나, C++17 표준안에서는 다시 C언어가 C++의 진부분집합이 될 것이 확실해 보인다. 현재 C와 C++가 명확한 구별 없이 혼재되어 사용되는 컴파일러가
+          대부분이지만 C99 이후의 문법을 C++ 컴파일러에서 컴파일할 경우 오류가 발생할 수 있다.
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>
